@@ -6,50 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="bootstrap.css">
-    <style>
-        body {background-image: url(img/Background.png);}
-    </style>
 </head>
 
-<body style="background-image: url(img/Background.png) ; width:500px;height:600px;">
+<body class="background-image">
         <div>
             <img src="" alt="">
         </div>
-        <hr>
-        <section class="card input-group-text">
-        <div class="form-control">
-            <h3>Register</h3>
-            <form action="post">
-                <div>
-                    <label for="">Mail</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="">Apellido</label>
-                    <input type="text" name="apellido" id="apellido">
-                </div>
-                <div>
-                    <label for="">Contraceña</label>
-                    <input type="password" name="contraceña" id="contraceña">
-                </div>
-                <div>
-                    <label for="">Confirmar contraceña</label>
-                    <input type="password" name="contraceña" id="contraceña">
-                </div>
-                <input type="submit" value="Submit">
-            </form>
+        <div class="flex-container">
+            <hr>
+            <section class="card input-group-text">
+            <div class="align-content-center">
+                <img src="./img/146-1468390_transparent-shadow-person-png-missing-profile-picture-icon.png" alt="" width="100px" height="100px"> <br>
+                <h3>Register</h3>
+                <form class="align-content-center" action="post">
+                    <div>
+                        <label for="">Mail</label><br>
+                        <input placeholder="Ingrese Correo Electronico" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="">Nombre</label> <br>
+                        <input placeholder="Ingrese Nombre completo" type="text" name="nombre" id="nombre">
+                    </div>
+                    <div>
+                        <label for="">Apellido</label> <br>
+                        <input placeholder="Ingrese Apellidos" type="text" name="apellido" id="apellido">
+                    </div>
+                    <div>
+                        <label for="">Contraceña</label> <br>
+                        <input placeholder="Ingrese su Contraseña" type="password" name="contraceña" id="contraceña">
+                    </div>
+                    <div>
+                        <label for="">Confirmar contraceña</label> <br>
+                        <input placeholder="Repita su Contraceña" type="password" name="contraceña" id="contraceña">
+                    </div> <br>
+                    <a class="btn btn-outline-info" href="index.html"> Registrarse</a>
+                </form>
+            </div>
+            </section>
+        </div>    
+    <footer class="footer">
+      
+        <div class="flex-footer">
+            <img src="./img/logo.png" alt="" width="50" height="50">
+            <div>
+                <a href="sobrenosotros.html">Sobre Nosotros</a>
+                <a href="contact.html">Contacto</a>
+            </div> 
         </div>
-        </section>
-    <footer class="">
-       <a href="#">About</a>
-       <a href="#">contact</a>
-        <button><img src="/logos/logo-instagram-png.png" alt="" width="35"></button>
-        <button><img src="/logos/fb-logo.jpg" alt="" width="35"> <a href="https://www.facebook.com"></a></button>
-        <button><img src="/logos/twitter.webp" alt="" width="35"></button>
+        
     </footer>
 
 </body>

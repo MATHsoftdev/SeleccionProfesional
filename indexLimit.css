@@ -8,87 +8,44 @@ body{
     background: #e8e8e8;
 }
 
-.menu{
-    list-style: none;
-    padding: 0;
-    background: #09b8d3;
-    width: 100%;
-    margin: auto;
+
+.card{
+    align-content: flex-start;
 }
 
-.menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-.menu li{
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-}
-
-#content-carrusel{
-    height: 500px;
-    overflow: hidden;
-}
-
-.carrusel{
-    height: 100%;
-    position: relative;
-}
-
-.banner{
-    height: 100%;
-}
-
-.flechas{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+.cards-resumen{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
 }
 
-i{
-    color: rgb(255, 255, 255);
+.cards-tutorial{
+    display: flex;
 }
 
-img{
-    height: 100%;
-    width: 100%;
+#cards h1{
+    text-align: center;
 }
 
-#banner-1{
-    background-color: #ef8354;
-}
 
-#banner-2{
-    background-color: #ea8ef7;
-}
-
-#banner-3{
-    background-color: #89e689;
-}
-
-a{
-    text-decoration: none;
-}
-
-#content-copyright{
+#footer{
     list-style: none;
     padding: 20px;
     background: black;
     height: 100px;
     width: 100%;
     margin: auto;
-}
+}   
 
 .copyright{
-    text-align:left;
     color: white;
+    text-align: left;
+}
+
+.nosotros-contactos i a{
+    text-align: left;
+    color: white;
+}
+
+.terminosCondiciones i a{
+    align-items: center;
+    color: rgb(134, 130, 130);
 }
