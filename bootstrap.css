@@ -583,6 +583,24 @@ progress {
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
+.icon {
+  margin: 2.5vh;
+	position: absolute;
+  top: 0%;
+	left: 85vw;
+}
+
+@keyframes border {
+	0% {
+		border:3px solid lightgreen;
+	}
+	50% {
+		border:3px solid salmon;
+	}
+	100% {
+		border:3px solid skyblue;
+	}
+}
 
 .initialism {
   font-size: 0.875em;
@@ -1970,6 +1988,14 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 9vh;
+    background: rgb(14, 1, 61);
 }
 .form-label {
   margin-bottom: 0.5rem;
@@ -4249,6 +4275,7 @@ textarea.form-control-lg {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
   box-shadow: var(--bs-card-box-shadow);
+  padding: 20px;
 }
 .card > hr {
   margin-right: 0;
@@ -4663,7 +4690,12 @@ textarea.form-control-lg {
   --bs-pagination-font-size: 0.875rem;
   --bs-pagination-border-radius: 0.25rem;
 }
-
+.background-image{
+  background-image: url(img/vackground-com-SfDofjXtxHE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .badge {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
@@ -7417,7 +7449,27 @@ textarea.form-control-lg {
 .min-vh-100 {
   min-height: 100vh !important;
 }
-
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.flex-footer{
+  display: flex;
+  padding-left: 0px;
+  margin: 15px;
+  width: 15%;
+  display: flex;
+  
+}
+.flex-p-footer{
+  left: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .flex-fill {
   flex: 1 1 auto !important;
 }
