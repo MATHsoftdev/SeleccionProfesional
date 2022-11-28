@@ -21,8 +21,14 @@
 .rank{
     align-content: flex-start;
 }
+.ranking{
+    border-bottom: 3px solid black;
+}
 .news{
     align-content: flex-end;
+}
+.noticias{
+    border-bottom: 3px solid black;
 }
 
 .located{
