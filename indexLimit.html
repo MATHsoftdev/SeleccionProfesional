@@ -64,62 +64,91 @@
           </div>
 
         <!-- Tarjetas con imagenes y texto -->
-        <div id="cards">
-            <div class="cartitas">
-                <h1>Resumen de pagina</h1>
-                <div class="cards-resumen">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+        <div class="container-cards">
+
+            <div class="container-resumen">
+                
+                <div class="title">
+                    <h1>Resumen del sitio</h1>
                 </div>
-            </div>
-            
-            <div class="cartita2">
-                <h1>Tutorial para registrarse</h1>
-                <div class="cards-tutorial">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5>Paso 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="./img/ranking.jpg">
+                        <h4>Ranking</h4>
+                        <p>Un ranking de los profesionles mas destacados semanalmente por las calificaciones de los clientes</p>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5>Paso 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+        
+                    <div class="card">
+                        <img src="./img/novedades.png">
+                        <h4>Noticias</h4>
+                        <p>Contamos con un apartado para noticias sobre el mundo de los profesionales para mantenerse al dia de las novedades</p>
                     </div>
+        
+                    <div class="card">
+                        <img src="./img/contratar servicios.jpg">
+                        <h4>Contratar servicios</h4>
+                        <p>La plataforma ofrece a los usuarios la posibilidad de contratar como tambien de ofrecer servicios locales a otros usuarios</p>
+                    </div>
+
                 </div>
+                
             </div>
+
+            <div class="container-tutorial">
+                
+                <div class="title">
+                    <h1>Tutorial para registrarse</h1>
+                </div>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="./img/ranking.jpg">
+                        <h4>Paso 1</h4>
+                        <p>Tenemos un ranking de los profesionles mas destacados semanalmente por las calificaciones de los clientes</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./img/novedades.png">
+                        <h4>Paso 2</h4>
+                        <p>Contamos con un apartado para noticias sobre el mundo de los profesionales para mantenerse al dia de las novedades</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./img/ranking.jpg">
+                        <h4>Paso 3</h4>
+                        <p>Tenemos un ranking de los profesionles mas destacados semanalmente por las calificaciones de los clientes</p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
     </main>
         
     <!-- Pie de pagina -->
-    <footer id="footer">
-
-        <!-- Marca del equipo -->
-        <div class="copyright">
-            <i class="fa-regular fa-copyright"></i> MATH   
-        </div>
+    <footer class="footer">
 
         <!-- Enlaces para las paginas "Nosotros" y "Contacto" -->
         <div class="nosotros-contactos">
-            <i><a href="./">Nosotros</a></i>
-            <i><a href="./contact.html">Contacto</a></i>
+            <img src="./img/logo.png"> 
+            <div class="enlaces">
+                <a href="./Sobrenosotros.html">Nosotros</a>
+                <a href="./contact.html">Contacto</a>
+            </div>  
         </div>
 
         <!-- Enlace para los terminos y condiciones -->
         <div class="terminosCondiciones">
-            <i><a href="">Terminos y condiciones</a></i>
+            <div class="enlaces">
+                <a href="">Terminos y condiciones</a>
+            </div>
         </div>
+        
     </footer>
     <script src="./bootstrap.bundle.min.js"></script>
 </body>
