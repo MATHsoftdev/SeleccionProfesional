@@ -4,38 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./bootstrap.css">
 </head>
+
 <body class="background-image">
-    <div class="flex-container">
-        <h3>Consultoria</h3>
-        <form action="post">
-            <div>
-                <label for="">Mail</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <label for="">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div>
-                <label for="">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
-            <div>
-                <label for="">Ingrese consulta</label>
-                <textarea name="" id="" cols="10" rows="10"></textarea>
-            </div>
-            <input type="submit" value="Submit">
-        </form>
+    <div>
+        <img src="" alt="">
     </div>
-    <hr>
-    <footer>
-        <a href="#">About</a>
-        <a href="#">contact</a>
-         <button><img src="/logos/logo-instagram-png.png" alt="" width="35"></button>
-         <button><img src="/logos/fb-logo.jpg" alt="" width="35"> <a href="https://www.facebook.com"></a></button>
-         <button><img src="/logos/twitter.webp" alt="" width="35"></button>
-     </footer>
+    <div class="flex-container">
+        <hr>
+        <section class="card mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Formulario de Contacto</h2>  
+            <p class="text-center w-responsive mx-auto mb-5"> Necesitas asesoramiento personalizado? Contactanos!! plantea tu asunto en el siguiente formulario y nos contactaremos con usted via Mail.</p>
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Nombre</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Asunto</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <label for="message">Mensaje</label>
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Cipoletti. Rio Negro</p>
+                        </li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+54 299#######</p>
+                        </li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>Ejemplo@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>    
+<footer class="footer">
+  
+    <div class="flex-footer">
+        <img src="./img/logo.png" alt="" width="50" height="50">
+        <div>
+            <a href="./Sobrenosotros.html">Sobre Nosotros</a>
+            <a href="./contact.html">Contacto</a>
+        </div> 
+            <div class="icon">
+                <a href="https://Instagram.com"><img  src="/logos/logo-instagram-png.png" alt="" width="35"></a>
+                <a href="https://facebook.com"><img src="/logos/fb-logo.jpg" alt="" width="35"></a>
+                <a href="https://twitter.com"><img src="/logos/twitter.webp" alt="" width="35"></a>
+            </div>
+    </div>
+    
+</footer>
 </body>
 </html>
