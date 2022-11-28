@@ -6,11 +6,19 @@
 
 body{
     font-family: Arial, Helvetica;
-    background: #e8e8e8;
+    background-image: url(./img/fondoClaro.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+
 #carouselExampleControlsNoTouching{
-    width: 100%;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    margin: auto;
 }
 
 .container-cards{
@@ -70,7 +78,7 @@ body{
 
 
 .nosotros-contactos img{
-    width: 50px;
+    width: 60px;
     height: 50px;
 }
 
